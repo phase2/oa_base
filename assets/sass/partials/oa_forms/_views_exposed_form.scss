@@ -1,0 +1,18 @@
+// Views exposed form
+// --------------------------------------------------
+.views-exposed-form {
+  .well {
+    padding: 0 1em;
+  }
+  .filter-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+.view-filters form {
+  margin: 0;
+}
+.views-exposed-widget.views-submit-button {
+  padding-right: 5px;
+}

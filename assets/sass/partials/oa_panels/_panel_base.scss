@@ -1,0 +1,80 @@
+// General pane styles
+// --------------------------------------------------
+.panel-pane {
+  position: relative;
+  .content & {
+    padding-bottom: 15px;
+  }
+}
+.row-fluid [class="span12"] {
+  min-height: 0;
+}
+.content .bryant-flipped-sidebar-inner,
+.content .burr-flipped-sidebar-inner {
+  padding-top: 0;
+}
+
+// Fix for selby-flipped panopoly layout
+// --------------------------------------------------
+.selby-flipped-column-inner {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+// Discussion attachments panel
+// --------------------------------------------------
+.attachments {
+  .user-badge {
+    .user-picture img {
+      margin: 0 8px 0 0;
+    }
+    .created {
+      font-size: $fontSizeMini;
+      line-height: 13px;
+      color: $gray;
+    }
+  }
+  .oa-body {
+    padding: 10px;
+    ul {
+      margin: 0;
+      li {
+        margin: 0 0 5px;
+      }
+    }
+  }
+}
+
+// Content visibility
+// --------------------------------------------------
+.pane-oa-widgets-content-visibility {
+  .visibility {
+    text-transform: uppercase;
+  }
+}
+
+// Widgets
+// --------------------------------------------------
+.pane-oa-widgets-add-content {
+  ul {
+    margin-left: 0;
+  }
+  li {
+    a.btn {
+      margin-bottom: 5px;
+    }
+  }
+}
+
+// Space summary
+// --------------------------------------------------
+.pane-oa-core-summary {
+  .space-links {
+    .favorite {
+      float: left;
+    }
+    .edit {
+      float: right;
+    }
+  }
+}

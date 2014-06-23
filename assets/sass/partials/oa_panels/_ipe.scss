@@ -1,0 +1,36 @@
+// IPE
+// --------------------------------------------------
+body.panels-ipe {
+  margin-bottom: 0px !important;
+  #main {
+    margin-top: 20px;
+    position: relative;
+  }
+}
+
+// Move the Panels IPE buttons from bottom to the top
+// script.js moves this element into #main
+div#panels-ipe-control-container {
+  background-color: transparent;
+  position: absolute;
+  top: -25px;
+  right: -12px;
+  bottom: auto;
+  width: auto;
+  // needs to be above most stuff, but below the dropdown
+  // which are at z-index 1000
+  z-index: 999;
+  @include box-shadow(none);
+  a {
+    font-weight: normal;
+  }
+  @include breakpoint('phone') {
+    // We don't need this on phone for now.
+    display: none !important;
+  }
+}
+@media screen and (max-width: $tabletBreakpoint) {
+  div#panels-ipe-control-container {
+    position: absolute;
+  }
+}

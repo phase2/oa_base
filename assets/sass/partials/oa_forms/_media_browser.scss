@@ -1,0 +1,70 @@
+// Media Browser
+// --------------------------------------------------
+#media-browser-tabset {
+  h1 {
+    font-size: 16px;
+  }
+  a.button,
+  input.form-submit {
+    @extend .btn;
+    @extend .btn-primary;
+  }
+}
+
+// Undo media browser button styles from panopoly admin
+// --------------------------------------------------
+#modal-content .form-submit,
+#media-browser-tabset a.button,
+#media-browser-tabset form a.button,
+#media-browser-tabset input.form-submit,
+#media-browser-tabset form input.form-submit,
+#modal-content #edit-cancel {
+  @extend .btn;
+  height: auto;
+  font-weight: normal;
+  display: inline-block;
+  &:hover {
+    color: white;
+    background-color: #0044cc;
+    background-image: none;
+  }
+}
+#modal-content .form-submit,
+#media-browser-tabset input.form-submit,
+#media-browser-tabset form input.form-submit {
+  @extend .btn-primary;
+}
+#modal-content {
+  .form-item {
+    clear: both;
+  }
+  .form-submit {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+}
+#media-tabs-wrapper ul.ui-tabs-nav {
+  margin-bottom: 0;
+}
+#media-browser-tabset {
+  .views-exposed-form {
+    .views-submit-button {
+      margin-top: 30px;
+    }
+    .views-exposed-widget {
+      margin-right: 0;
+    }
+  }
+  #edit-filename-wrapper {
+    width: 200px;
+  }
+  form select {
+    width: 100%;
+  }
+  input.form-file,
+  span.file {
+    margin-right: 10px;
+  }
+}

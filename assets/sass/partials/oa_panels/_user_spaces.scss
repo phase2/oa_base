@@ -1,0 +1,33 @@
+// User spaces
+// --------------------------------------------------
+.pane-oa-core-user-spaces {
+  .pane-content {
+    position: relative;
+  }
+  .spaces-container {
+    float: left;
+    margin-right: 20px;
+  }
+  .space-switcher {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+  }
+  .space {
+    border-bottom: 1px solid #D4D4D4;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+    .pull-left img {
+      margin-right: 15px;
+    }
+  }
+  .member-sidebar {
+    margin-bottom: 15px;
+    .space {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
+  }
+}

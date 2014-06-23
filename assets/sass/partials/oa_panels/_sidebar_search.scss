@@ -1,0 +1,29 @@
+// Sidebar search
+// --------------------------------------------------
+.pane-oa-sidebar-search {
+  form {
+    margin: 0;
+  }
+  .input-append {
+    @include box-sizing("border-box");
+  }
+  .search-text {
+    height: 32px;
+    width: 80%;
+    @include box-sizing("border-box");
+  }
+  .submit {
+    padding: 5px 0;
+    width: 20%;
+    @include box-sizing("border-box");
+  }
+  .options {
+    margin: 10px 0 0;
+  }
+}
+
+.oa-command-buttons {
+  li {
+    margin-bottom: 3px;
+  }
+}

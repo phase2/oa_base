@@ -1,0 +1,39 @@
+// General form styles
+// --------------------------------------------------
+form {
+  .form-item {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .btn {
+    width: auto;
+    height: inherit;
+  }
+  .button {
+    &.fake-ok,
+    &.fake-cancel {
+      @extend .btn;
+      display: inline-block;
+      max-width: 60px;
+      margin-right: 5px;
+    }
+    &.fake-ok {
+      @extend .btn-primary;
+    }
+  }
+  .form-actions {
+    border: 0;
+    padding: 0;
+    .btn {
+      margin-bottom: 10px;
+    }
+  }
+}
+.label {
+  font-weight: normal;
+  background-color: #ddd;
+  color: #333;
+  a {
+    font-weight: normal;
+  }
+}
