@@ -8,7 +8,7 @@ environment = :development
 http_path = "/"
 css_dir = "assets/stylesheets"
 sass_dir = "assets/sass"
-images_dir = "assets/images"
+images_dir = "../oa_base/assets/images/sprites"
 fonts_dir = "assets/fonts"
 javascripts_dir = "assets/javascripts"
 
@@ -33,3 +33,9 @@ line_comments = (environment == :development) ? true : false
 
 #Relative path to sass files in the oa_radix theme. May need updating on each site implementation
 add_import_path "../oa_base/assets/sass"
+
+# the following ADDS a path to the sprite_load_path ARRAY
+sprite_load_path << "assets/images/sprites"
+
+#render sprites to the sub-theme
+generated_images_dir = 'assets/images'
