@@ -32,4 +32,4 @@ line_comments = (environment == :development) ? true : false
 #Custom paths for parent-child theming
 
 #Relative path to sass files in the oa_radix theme. May need updating on each site implementation
-add_import_path "../../../../profiles/openatrium/themes/oa_radix/assets/sass"
+add_import_path "../../../../profiles/openatrium/themes/oa_base/assets/sass"
