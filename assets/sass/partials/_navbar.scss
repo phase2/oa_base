@@ -107,7 +107,7 @@ z-index: 1000;
             }
           }
           &:after {
-            content: url("../images/menu-divider.png");
+            content: url("../../../oa_base/assets/images/menu-divider.png");
             width: 10px;
             height: 42px;
             display: inline-block;
@@ -165,7 +165,7 @@ z-index: 1000;
         text-indent: -9999em;
         line-height: 2px;
         .caret {
-          background: transparent url("../images/navbar-icons.png") no-repeat 2px -1px;
+          background: transparent url("../../../oa_base/assets/images/navbar-icons.png") no-repeat 2px -1px;
           margin: 0;
           width: 18px;
           height: 18px;
